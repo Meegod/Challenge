@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+body{
+	font-family: 'Poppins', sans-serif;
+	margin: 0px;
+	padding: 0px;
+	overflow-x: hidden;
+	overflow-y: hidden;
+
+}
+/*utilities classes*/
+section{
+	overflow: hidden;
+	background-color: #fff;
+	width: 300px;
+	border-radius: 10px;
+}
+body{
+	background-color: hsl(229, 23%, 23%);
+	/*hsl(227, 10%, 46%)*/
+}
+*{
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+img{
+	width: 100%;
+	height:auto;
+}
+/*end utilities default classes*/
+/*Styling the section*/
+section{
+	max-width: 900px;
+	margin: 90px auto;
+}
+.img-top,.img-bottom{
+width:300px;
+margin:0 auto;
+}
+.img-bottom img{
+	border-radius: 50%;
+	width:100px;
+	text-align: center;
+	position: relative;
+	left: 100px;
+	bottom: 3rem;
+    z-index: 9999;
+}
+div .img-bottom{
+	text-align: center;
+	}
+	.card-content{
+		/*position: relative;
+		left: 40%;
+*/
+}
+/*card design item*/
+.card-item{
+	position: relative;
+	bottom: 70px;
+	left: 60px;
+
+	/*color:#fff;*/
+}
+.card-item h2{
+	position: relative;
+	/*right: 30px;*/
+}
+.card-item  p{
+	position: relative;
+    bottom: 20px;
+    left:60px;
+}
+
+.card-items-row{
+
+	
+	display: flex;
+	justify-content: space-around;
+
+}
+.card-items-row h1{
+
+}

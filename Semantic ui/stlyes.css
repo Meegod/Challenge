@@ -1,0 +1,181 @@
+
+/*Utilities*/
+*{
+	box-sizing: border-box;
+	overflow-x: hidden;
+	}
+	img{
+		max-width: 100%;
+		display: block;
+	}
+	.pb-all{
+		padding:1.875rem;
+	}
+	.text-center{
+		text-align: center;
+	}
+body{
+	margin:0;
+	background:#fff;
+	color:white;
+	font-family: sans-serif;	
+}
+h2,h1{
+	font-size: 1.5em;
+}
+.container{
+	padding:0.9em 1.5em 1.5em 1.5em;
+	max-width:1200px;
+	margin:0 auto;
+
+}
+/*end utilities*/
+/*nav icon*/
+.fa-bars,.fa-times{
+font-size: 2em;
+    margin-top: 20px;
+    color: blue;
+
+}
+
+
+.fa-arrow-right{
+	color: red;
+	margin-left: 1em;
+	
+}
+a{
+	color:white;
+	text-decoration: none;
+	cursor: pointer;
+	display: inline-block;
+}
+
+ul{
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+.hero-wrapper{
+	background:#FFF5BF;
+	background-size: cover;
+	position: relative;
+	  z-index: -1;
+
+}
+.hero-wrapper:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+   }
+/*hero content styling*/
+.hero-content-wrap{
+	color: #005E73;
+}
+/*Hero image mobile styling*/
+.hero-img img{
+	display: none;
+}
+.hero-content-wrap{
+	display: grid;
+	grid-template-columns:repeat(4,1fr);
+	grid-gap:0 2rem;
+	padding:2em;
+
+}
+/*Hero grid for mobile*/
+.hero-description h2{
+	overflow-wrap: break-word;
+      word-wrap: break-word;
+}
+.hero-description{
+	grid-column: span 4;
+}
+
+/*end hero description for mobile*/
+/*button styles*/
+.btn:hover{
+	box-shadow: 
+}
+.btn-close{
+	display: none;
+}
+.btn-sm{
+	font-size:1.4rem;
+	padding:.7rem 1.6rem;
+	border-radius:4rem;
+}
+.btn-lg{
+	padding:1.3rem 3.0rem;
+	border-radius:2.8rem;
+	min-width:35px;
+}
+.hero-description .btn-blue{
+	/*top margin is 25px
+right margin is 50px
+bottom margin is 75px
+left margin is 100px*/
+  margin:1.5rem 1.2rem 0.5rem 0.8em;
+  display:inline-flex;
+}
+.btn-light{
+	background-color:#DAF8FF; 
+	color: #005E73;
+}
+.btn-blue{
+	background-color:#005E73; 
+
+}
+.btn-light:hover{
+	color:red;
+}
+.btn-login{
+
+}
+ul .btn{
+	margin-right: 2em;
+}
+
+
+
+
+/*end btn styles*/
+/*The header is basically for the navbar and ul items*/
+header{
+	display: flex;
+	justify-content: space-between;
+}
+header .logo{
+	font-weight: bold;
+	z-index: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #005E73;
+	overflow: visible;
+}
+/*on mobile*/
+nav ul{
+
+}
+header ul{
+	display: flex;
+    display: none;
+
+}
+ 
+header ul li a{
+	padding: 0 .6em;
+}
+
+/*section 2---*/
+.ytb-video h1{
+	font-size: 1.7em;
+	color:#005E73; 
+}
+.ytb-video p{
+	color:#005E73; 
+	/*max-width: 960px;*/
+}

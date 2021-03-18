@@ -1,0 +1,94 @@
+.card {
+  background-color: #fff;
+  color: #333;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  padding: 3em;
+  margin-bottom:4em;
+
+  }
+img{
+	max-width: 100%;
+	display: inline-block;
+}
+.image-grid img{
+	border-radius: 50%;
+	width:100px;
+	height: 100px;
+}
+.card-grid{
+	display: flex;
+	justify-content: space-between;
+}
+.image-grid{
+	display: flex;
+}
+.profile-wrapper{
+	margin-left: 2em;
+	margin-top: 1em;
+}
+.profile-wrapper span{
+	padding: 0px !important;
+	margin: 0px !important;
+	z-index: 1;
+	font-size: 2em;
+}
+.profile-wrapper p{
+	font-size: 1.5em;
+	/*margin-bottom: 2em;*/
+	position: relative;
+	bottom:0.4em;
+
+}
+.btn-sm{
+	font-size:1.4rem;
+	padding:.7rem 1.6rem;
+	border-radius:4rem;
+	color: #00acee;
+}
+
+.btn-outline{
+	background-color:#fff; 
+	border: 1px solid #00acee;
+
+}
+
+a{
+	text-decoration:none;
+
+}
+
+.comment-txt h2{
+	line-height: 2em;
+	font-weight: lighter;
+}
+
+.date{
+	font-weight: lighter;
+}
+
+.bottom-wrapper img{
+	border-radius: 50%;
+	width:50px;
+	height: 50px;
+	margin-top: 20px;
+}
+
+.flex-btm {
+	display: flex;
+	justify-content: space-between;
+	border-top:2px solid #808080;
+	border-bottom:2px solid #808080;
+}
+.comment-section{
+  display: flex;
+padding: 10px;
+}
+.comment-section div{
+  margin-right: 20px;
+  align-self: center;
+}
+.comment-section img{
+  margin-top: 2px;
+  align-self: center;
+}
